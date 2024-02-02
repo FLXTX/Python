@@ -31,3 +31,10 @@ def max_num(num1, num2, num3):
         return num3
 
 print(max_num(2, 3, 4))    
+
+
+i = 1
+while i <= 10:
+    print(i)
+    i += 1      #Adds 1 to i
+print("Done with loop") 
