@@ -50,3 +50,12 @@ print(friends.count("Jim"))         # counts how many are on the list
 
 friends.clear()     # removes everything from the list
 print(friends)
+
+#Tuple is a structure I can store multiple pieces of information, similar to lists
+#Tuple can't be changed or modified unlike lists
+# Tuple is used with data that is never going to change
+
+coordinates = (4, 5)
+print(coordinates[0])
+
+coordinates = {(4, 5), (6, 7), (80, 90)}    # You can also make a list of tuples
