@@ -19,7 +19,7 @@ def say_hi(name, age) :          # A parameter is a piece of info I give to the 
 say_hi("Mike", "35")  
 say_hi("Steve", "55")            
 
-def cube(num):          # return keyword returns information from a function
+def cube(num):          # return keyword returns information from a function and breaks out of the function
     return num*num*num  
 
 print(cube(3))
