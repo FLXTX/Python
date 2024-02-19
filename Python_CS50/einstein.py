@@ -9,3 +9,4 @@ def main():
     return energy
 
 main()
+
