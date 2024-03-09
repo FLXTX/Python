@@ -12,7 +12,7 @@ def calculator(x, y, z):
     
 def main():
     expression = input("Let's start calculating: ")
-    x,y,z = expression.split()
+    x,y,z = expression.split(" ")
     x = float(x)
     z = float(z)
     result = calculator(x, y, z)
